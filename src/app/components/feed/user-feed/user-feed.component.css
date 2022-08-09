@@ -1,0 +1,16 @@
+.scroller{
+    overflow: auto;
+    height: 600px;
+}
+.scroller::-webkit-scrollbar{
+    width: 10px;
+}
+
+.scroller::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+}
+.scroller::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(130, 130, 130);
+}
